@@ -1,17 +1,26 @@
 <html lang="en">
 <head>
-<link rel="stylesheet" href="./../styles.css">
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./../styles.css">
   <title>Easy eats</title>
 </head>
 <body>
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item"><a href="./../index.html" class="navbar-link">Home</a></li>
+      <li class="navbar-item"><a href="./About.html" class="navbar-link">About</a></li>
+      <li class="navbar-item"><a href="./Contact.html" class="navbar-link">Contact us</a></li>
+    </ul>
+  </nav>
   <div class="card w-50 mx-auto mt-3">
     <div>
       <a href="./../index.html" class="btn btn-danger">Back</a>
       <h3 class="text-center flex-grow-1">Peanut Butter Banana Toast</h3>
     </div>    
     <div class="text-center">
-      <img src="./../images/toast.png" class="small-image" alt="Peanut Butter Banana Toast">
+      <img src="./../images/toast.png" class="img-fluid small-image" alt="Peanut Butter Banana Toast">
     </div>
     
     <table class="table-custom text-center mx-auto">
@@ -41,7 +50,7 @@
       </tbody>
     </table>
 
-    <div>
+    <div class="ml-2">
       <h5>Directions:</h5>
       <ol type="1">
         <li>Toast the bread.</li>
@@ -53,4 +62,7 @@
     </div>
   </div>
 </body>
+<footer>
+  <p>&copy; 2023 Easy Eats. All rights reserved.</p>
+</footer>
 </html>

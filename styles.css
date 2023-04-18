@@ -33,6 +33,11 @@ body {
   height: 30rem;
 }
 
+.card-profile {
+  width: 10rem; 
+  height: 20rem;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -60,6 +65,15 @@ body {
 .card {
   margin: 10px 10px;
   background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.card-gray {
+  margin: 10px 10px;
+  background-color: rgba(117, 117, 117, 0.671);
   border-radius: 0.25rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   margin-bottom: 1rem;
@@ -135,4 +149,52 @@ body {
   color: #fff;
   background-color: #454d55;
   border-color: #454d55;
+}
+
+.navbar {
+  background-color: #00000052;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+	background-color: #00000023;
+	padding: 20px;
+	text-align: center;
+}
+
+footer p {
+	margin: 0;
+	font-size: 14px;
+	color: #666;
+}
+
+.profile-picture {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.ml-2{
+  margin-left: 16px;
 }
